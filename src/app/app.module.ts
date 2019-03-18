@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { RatingInputComponent } from './components/rating-input/rating-input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RatingInputComponent
   ],
   imports: [
     BrowserModule
